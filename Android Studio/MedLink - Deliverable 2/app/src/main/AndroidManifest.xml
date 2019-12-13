@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medlink_deliverable2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChooseServiceForAppointmentActivity"></activity>
+        <activity android:name=".BookAppointmentActivity" />
+        <activity android:name=".ClinicViewPatient" />
+        <activity android:name=".SearchForClinicsActivity" />
+        <activity android:name=".PatientAccountActivity" />
+        <activity android:name=".ClinicDeleteDialogue" />
+        <activity android:name=".ManageServicesClinic" />
+        <activity android:name=".Registration_Employee3" />
+        <activity android:name=".EditHoursDialogue" />
+        <activity android:name=".SetRateDialogue" />
+        <activity android:name=".Registration_Employee2" />
+        <activity android:name=".EmployeeAccountActivity" />
+        <activity android:name=".DeleteDialog" />
+        <activity android:name=".CategoryLayout" />
+        <activity android:name=".ManageServices" />
+        <activity android:name=".ManageAccounts" />
+        <activity android:name=".WelcomePageActivityAdmin" />
+        <activity android:name=".WelcomePageActivity" />
+        <activity android:name=".Registration_Employee" />
+        <activity android:name=".Registration_Patient" />
+        <activity android:name=".IAmActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
